@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.3.1",
-      "E:\\Mohsin Razzaq\\bootstrap templates\\startbootstrap-resume-gh-pages"
+      "C:\\Users\\Mohsin Razzaq\\Desktop\\mohsin-razzaq-portfolio2"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.3.1",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.3.1.tgz",
   "_spec": "5.3.1",
-  "_where": "E:\\Mohsin Razzaq\\bootstrap templates\\startbootstrap-resume-gh-pages",
+  "_where": "C:\\Users\\Mohsin Razzaq\\Desktop\\mohsin-razzaq-portfolio2",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
