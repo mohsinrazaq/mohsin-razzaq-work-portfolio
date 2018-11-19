@@ -5,7 +5,6 @@ jQuery(function ($) {
     (function () {
         $('#successmail').hide();
         $('#errormail').hide();
-        $('#preloader').delay(200).fadeOut('slow');
     }());
 
     $(function () {    
@@ -31,3 +30,4 @@ jQuery(function ($) {
             });
         }); 
     });
+});
