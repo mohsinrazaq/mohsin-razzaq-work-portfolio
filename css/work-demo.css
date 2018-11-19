@@ -2,6 +2,7 @@
  * Portfolio
  *-------------------*/
 
+       
  .portfolio-item {
     position      : relative;
     display       : block;
@@ -9,7 +10,6 @@
     max-width: 50%;
     float: left;
     }
-
 .portfolio-item .portfolio-thumb img {
     height    : auto;
     display   : block;
@@ -27,7 +27,7 @@
             transparent 0%,
             rgba(0, 0, 0, 0.5) 100%
     );
-    }
+}
 
 .portfolio-item .portfolio-info h3 {
     margin      : 0;
@@ -45,4 +45,33 @@
             transparent 0%,
             rgba(42, 84, 245, 0.5) 100%
     );
+}
+
+@media (max-width : 680px) {
+    .portfolio-item {
+        position      : relative;
+        display       : block;
+        margin-bottom : 30px;
+        max-width: 100%;
+        float: none;
+        
     }
+    .portfolio-item .portfolio-thumb img {
+        height    : auto;
+        display   : block;
+        max-width : 100%;
+        }
+    
+    .portfolio-item .portfolio-info {
+        position   : absolute;
+        bottom     : 0;
+        padding    : 30px 15px 5px;
+        width      : 80%;
+        margin-left: 40px;
+        background : -webkit-linear-gradient(
+                top,
+                transparent 0%,
+                rgba(0, 0, 0, 0.5) 100%
+        );
+    }
+}   
