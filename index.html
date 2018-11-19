@@ -58,7 +58,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>  
           
         </ul>
       </div>
@@ -373,6 +376,47 @@
 
         </div>
       </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+        <div class="my-auto">
+          <div class="feedback-form">
+            <h2>Get in touch</h2>
+
+            <form id="contactForm" action="" method="POST">
+                <div class="form-group">
+                    <label for="InputName">Name</label>
+                    <input type="text" name="name" required="" class="form-control" id="InputName"
+                        placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="InputEmail">Email address</label>
+                    <input type="email" name="email" required="" class="form-control" id="InputEmail"
+                        placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="InputSubject">Subject</label>
+                    <input type="text" name="subject" class="form-control" id="InputSubject"
+                        placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="message-text" class="control-label">Message</label>
+                    <textarea class="form-control" rows="4" required="" name="message" id="message-text"
+                        placeholder="Write message"></textarea>
+                </div>
+                <div class="alert alert-success fade in alert-dismissible" id="successmail">
+                    <strong>Thank You </strong>For Contacting. I'll Reach You Soon.
+                </div>
+                <div class="alert alert-danger fade in alert-dismissible" id="errormail">
+                    <strong>Failed!</strong> Please Try Again Later or Email at <a style="color: inherit; text-decoration: underline; font-weight: bold"
+                        href="mailto:mohsinrazzaq25@gmail.com"><i>mohsinrazzaq25@gmail.com</i></a>
+                </div>
+                <button id="Submit" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        </div>
+      </section>
     </div>
 
     <!-- Bootstrap core JavaScript -->
@@ -382,5 +426,6 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
