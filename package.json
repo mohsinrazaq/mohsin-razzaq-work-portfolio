@@ -1,8 +1,8 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "5.0.2",
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "title": "Stylish Portfolio",
+    "name": "startbootstrap-stylish-portfolio",
+    "version": "5.0.1",
+    "description": "A stylish portfolio HTML template built with Bootstrap",
     "keywords": [
         "css",
         "sass",
@@ -11,25 +11,26 @@
         "theme",
         "template"
     ],
-    // "homepage": "https://startbootstrap.com/template-overviews/resume",
-    // "bugs": {
-    //     "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-    //     "email": "feedback@startbootstrap.com"
-    // },
+    "homepage": "https://startbootstrap.com/template-overviews/stylish-portfolio",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues",
+        "email": "feedback@startbootstrap.com"
+    },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        // "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://mohsinrazaq.github.io/mohsin-razzaq-portfolio2.git "
-        
+        "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
         "bootstrap": "4.1.3",
-        "jquery": "3.3.1"
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1",
+        "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
         "browser-sync": "^2.26.3",
