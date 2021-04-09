@@ -5,11 +5,16 @@
        
  .portfolio-item {
     position      : relative;
-    display       : block;
+    display       :inline-block;
     margin-bottom : 30px;
-    max-width: 50%;
+    max-width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
     float: left;
     }
+.portfolio-padding{
+    margin-left: -200px;
+}
 .portfolio-item .portfolio-thumb img {
     height    : auto;
     display   : block;
@@ -20,12 +25,11 @@
     position   : absolute;
     bottom     : 0;
     padding    : 30px 15px 5px;
-    width      : 80%;
-    margin-left: 57px;
+    width      : 100%;
     background : -webkit-linear-gradient(
             top,
             transparent 0%,
-            rgba(0, 0, 0, 0.5) 100%
+            rgb(235, 25, 25) 100%
     );
 }
 
@@ -36,7 +40,7 @@
     }
 
 .portfolio-item .portfolio-info small {
-    color : #ffffff;
+    color : #339148;
     }
 
 .portfolio-item:hover .portfolio-info {
@@ -97,6 +101,9 @@ a:focus {
         max-width: 100%;
         float: none;
         
+    }
+    .portfolio-padding{
+        margin-left: 0px;
     }
     .portfolio-item .portfolio-thumb img {
         height    : auto;
